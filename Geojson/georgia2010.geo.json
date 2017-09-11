@@ -213,7 +213,7 @@
 			"geoid": "05000US13133",
 			"name": "Greene County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 5.24288
+			"Mom_no_Diploman_HS": 25
 		}
 	}, {
 		"geometry": {
@@ -305,7 +305,7 @@
 			"geoid": "05000US13235",
 			"name": "Pulaski County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.78150656
+			"Mom_no_Diploman_HS": 22.8
 		}
 	}, {
 		"geometry": {
@@ -517,7 +517,7 @@
 			"geoid": "05000US13073",
 			"name": "Columbia County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 1.59383552
+			"Mom_no_Diploman_HS": 7.6
 		}
 	}, {
 		"geometry": {
@@ -754,7 +754,7 @@
 			"geoid": "05000US13213",
 			"name": "Murray County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 10.10827264
+			"Mom_no_Diploman_HS": 48.2
 		}
 	}, {
 		"geometry": {
@@ -1020,7 +1020,7 @@
 			"geoid": "05000US13031",
 			"name": "Bulloch County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.60710144
+			"Mom_no_Diploman_HS": 17.2
 		}
 	}, {
 		"geometry": {
@@ -1263,7 +1263,7 @@
 			"geoid": "05000US13283",
 			"name": "Treutlen County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.97025024
+			"Mom_no_Diploman_HS": 23.7
 		}
 	}, {
 		"geometry": {
@@ -1447,7 +1447,7 @@
 			"geoid": "05000US13193",
 			"name": "Macon County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 5.91396864
+			"Mom_no_Diploman_HS": 28.2
 		}
 	}, {
 		"geometry": {
@@ -1630,7 +1630,7 @@
 			"geoid": "05000US13253",
 			"name": "Seminole County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 6.66894336
+			"Mom_no_Diploman_HS": 31.8
 		}
 	}, {
 		"geometry": {
@@ -1673,7 +1673,7 @@
 			"geoid": "05000US13233",
 			"name": "Polk County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 7.94820608
+			"Mom_no_Diploman_HS": 37.9
 		}
 	}, {
 		"geometry": {
@@ -1944,7 +1944,7 @@
 			"geoid": "05000US13025",
 			"name": "Brantley County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.86539264
+			"Mom_no_Diploman_HS": 23.2
 		}
 	}, {
 		"geometry": {
@@ -2201,7 +2201,7 @@
 			"geoid": "05000US13291",
 			"name": "Union County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.62807296
+			"Mom_no_Diploman_HS": 17.3
 		}
 	}, {
 		"geometry": {
@@ -2325,7 +2325,7 @@
 			"geoid": "05000US13173",
 			"name": "Lanier County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.13138944
+			"Mom_no_Diploman_HS": 19.7
 		}
 	}, {
 		"geometry": {
@@ -2644,7 +2644,7 @@
 			"geoid": "05000US13113",
 			"name": "Fayette County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 2.24395264
+			"Mom_no_Diploman_HS": 10.7
 		}
 	}, {
 		"geometry": {
@@ -2679,7 +2679,7 @@
 			"geoid": "05000US13143",
 			"name": "Haralson County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.44596224
+			"Mom_no_Diploman_HS": 21.2
 		}
 	}, {
 		"geometry": {
@@ -2738,7 +2738,7 @@
 			"geoid": "05000US13295",
 			"name": "Walker County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 5.43162368
+			"Mom_no_Diploman_HS": 25.9
 		}
 	}, {
 		"geometry": {
@@ -3012,7 +3012,7 @@
 			"geoid": "05000US13241",
 			"name": "Rabun County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 5.70425344
+			"Mom_no_Diploman_HS": 27.2
 		}
 	}, {
 		"geometry": {
@@ -3328,7 +3328,7 @@
 			"geoid": "05000US13303",
 			"name": "Washington County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.00556032
+			"Mom_no_Diploman_HS": 19.1
 		}
 	}, {
 		"geometry": {
@@ -3375,7 +3375,7 @@
 			"geoid": "05000US13201",
 			"name": "Miller County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 2.62144
+			"Mom_no_Diploman_HS": 12.5
 		}
 	}, {
 		"geometry": {
@@ -3634,7 +3634,7 @@
 			"geoid": "05000US13215",
 			"name": "Muscogee County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.41835776
+			"Mom_no_Diploman_HS": 16.3
 		}
 	}, {
 		"geometry": {
@@ -3750,7 +3750,7 @@
 			"geoid": "05000US13225",
 			"name": "Peach County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.78150656
+			"Mom_no_Diploman_HS": 22.8
 		}
 	}, {
 		"geometry": {
@@ -3922,7 +3922,7 @@
 			"geoid": "05000US13161",
 			"name": "Jeff Davis County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 7.71751936
+			"Mom_no_Diploman_HS": 36.8
 		}
 	}, {
 		"geometry": {
@@ -4028,7 +4028,7 @@
 			"geoid": "05000US13065",
 			"name": "Clinch County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 5.07510784
+			"Mom_no_Diploman_HS": 24.2
 		}
 	}, {
 		"geometry": {
@@ -4184,7 +4184,7 @@
 			"geoid": "05000US13135",
 			"name": "Gwinnett County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.36207616
+			"Mom_no_Diploman_HS": 20.8
 		}
 	}, {
 		"geometry": {
@@ -4330,7 +4330,7 @@
 			"geoid": "05000US13111",
 			"name": "Fannin County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.04750336
+			"Mom_no_Diploman_HS": 19.3
 		}
 	}, {
 		"geometry": {
@@ -4587,7 +4587,7 @@
 			"geoid": "05000US13013",
 			"name": "Barrow County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.43932928
+			"Mom_no_Diploman_HS": 16.4
 		}
 	}, {
 		"geometry": {
@@ -4805,7 +4805,7 @@
 			"geoid": "05000US13255",
 			"name": "Spalding County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 6.12368384
+			"Mom_no_Diploman_HS": 29.2
 		}
 	}, {
 		"geometry": {
@@ -4898,7 +4898,7 @@
 			"geoid": "05000US13055",
 			"name": "Chattooga County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 7.08837376
+			"Mom_no_Diploman_HS": 33.8
 		}
 	}, {
 		"geometry": {
@@ -4993,7 +4993,7 @@
 			"geoid": "05000US13169",
 			"name": "Jones County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 3.01989888
+			"Mom_no_Diploman_HS": 14.4
 		}
 	}, {
 		"geometry": {
@@ -5246,7 +5246,7 @@
 			"geoid": "05000US13221",
 			"name": "Oglethorpe County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 5.01219328
+			"Mom_no_Diploman_HS": 23.9
 		}
 	}, {
 		"geometry": {
@@ -5399,7 +5399,7 @@
 			"geoid": "05000US13069",
 			"name": "Coffee County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 7.29808896
+			"Mom_no_Diploman_HS": 34.8
 		}
 	}, {
 		"geometry": {
@@ -5535,7 +5535,7 @@
 			"geoid": "05000US13043",
 			"name": "Candler County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 7.59169024
+			"Mom_no_Diploman_HS": 36.2
 		}
 	}, {
 		"geometry": {
@@ -5666,7 +5666,7 @@
 			"geoid": "05000US13287",
 			"name": "Turner County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 5.3477376
+			"Mom_no_Diploman_HS": 25.5
 		}
 	}, {
 		"geometry": {
@@ -5855,7 +5855,7 @@
 			"geoid": "05000US13263",
 			"name": "Talbot County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.39738624
+			"Mom_no_Diploman_HS": 16.2
 		}
 	}, {
 		"geometry": {
@@ -6228,7 +6228,7 @@
 			"geoid": "05000US13075",
 			"name": "Cook County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 5.28482304
+			"Mom_no_Diploman_HS": 25.2
 		}
 	}, {
 		"geometry": {
@@ -6524,7 +6524,7 @@
 			"geoid": "05000US13027",
 			"name": "Brooks County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 5.4525952
+			"Mom_no_Diploman_HS": 26
 		}
 	}, {
 		"geometry": {
@@ -6740,7 +6740,7 @@
 			"geoid": "05000US13187",
 			"name": "Lumpkin County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 3.79584512
+			"Mom_no_Diploman_HS": 18.1
 		}
 	}, {
 		"geometry": {
@@ -6842,7 +6842,7 @@
 			"geoid": "05000US13165",
 			"name": "Jenkins County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.55081984
+			"Mom_no_Diploman_HS": 21.7
 		}
 	}, {
 		"geometry": {
@@ -6965,7 +6965,7 @@
 			"geoid": "05000US13081",
 			"name": "Crisp County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 6.87865856
+			"Mom_no_Diploman_HS": 32.8
 		}
 	}, {
 		"geometry": {
@@ -7220,7 +7220,7 @@
 			"geoid": "05000US13079",
 			"name": "Crawford County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.43932928
+			"Mom_no_Diploman_HS": 16.4
 		}
 	}, {
 		"geometry": {
@@ -7333,7 +7333,7 @@
 			"geoid": "05000US13129",
 			"name": "Gordon County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 7.5497472
+			"Mom_no_Diploman_HS": 36
 		}
 	}, {
 		"geometry": {
@@ -7544,7 +7544,7 @@
 			"geoid": "05000US13319",
 			"name": "Wilkinson County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.29252864
+			"Mom_no_Diploman_HS": 15.7
 		}
 	}, {
 		"geometry": {
@@ -7609,7 +7609,7 @@
 			"geoid": "05000US13047",
 			"name": "Catoosa County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.34110464
+			"Mom_no_Diploman_HS": 20.7
 		}
 	}, {
 		"geometry": {
@@ -7742,7 +7742,7 @@
 			"geoid": "05000US13243",
 			"name": "Randolph County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 5.93494016
+			"Mom_no_Diploman_HS": 28.3
 		}
 	}, {
 		"geometry": {
@@ -7976,7 +7976,7 @@
 			"geoid": "05000US13267",
 			"name": "Tattnall County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 5.95591168
+			"Mom_no_Diploman_HS": 28.4
 		}
 	}, {
 		"geometry": {
@@ -8029,7 +8029,7 @@
 			"geoid": "05000US13285",
 			"name": "Troup County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.25721856
+			"Mom_no_Diploman_HS": 20.3
 		}
 	}, {
 		"geometry": {
@@ -8357,7 +8357,7 @@
 			"geoid": "05000US13019",
 			"name": "Berrien County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.9283072
+			"Mom_no_Diploman_HS": 23.5
 		}
 	}, {
 		"geometry": {
@@ -8438,7 +8438,7 @@
 			"geoid": "05000US13057",
 			"name": "Cherokee County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 2.11812352
+			"Mom_no_Diploman_HS": 10.1
 		}
 	}, {
 		"geometry": {
@@ -8589,7 +8589,7 @@
 			"geoid": "05000US13071",
 			"name": "Colquitt County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 7.48683264
+			"Mom_no_Diploman_HS": 35.7
 		}
 	}, {
 		"geometry": {
@@ -8794,7 +8794,7 @@
 			"geoid": "05000US13151",
 			"name": "Henry County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 2.22298112
+			"Mom_no_Diploman_HS": 10.6
 		}
 	}, {
 		"geometry": {
@@ -9000,7 +9000,7 @@
 			"geoid": "05000US13157",
 			"name": "Jackson County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 3.670016
+			"Mom_no_Diploman_HS": 17.5
 		}
 	}, {
 		"geometry": {
@@ -9308,7 +9308,7 @@
 			"geoid": "05000US13179",
 			"name": "Liberty County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 2.9360128
+			"Mom_no_Diploman_HS": 14
 		}
 	}, {
 		"geometry": {
@@ -9520,7 +9520,7 @@
 			"geoid": "05000US13209",
 			"name": "Montgomery County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 3.75390208
+			"Mom_no_Diploman_HS": 17.9
 		}
 	}, {
 		"geometry": {
@@ -9759,7 +9759,7 @@
 			"geoid": "05000US13269",
 			"name": "Taylor County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 6.83671552
+			"Mom_no_Diploman_HS": 32.6
 		}
 	}, {
 		"geometry": {
@@ -9882,7 +9882,7 @@
 			"geoid": "05000US13259",
 			"name": "Stewart County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.194304
+			"Mom_no_Diploman_HS": 20
 		}
 	}, {
 		"geometry": {
@@ -10029,7 +10029,7 @@
 			"geoid": "05000US13117",
 			"name": "Forsyth County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 1.55189248
+			"Mom_no_Diploman_HS": 7.4
 		}
 	}, {
 		"geometry": {
@@ -10114,7 +10114,7 @@
 			"geoid": "05000US13275",
 			"name": "Thomas County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 3.69098752
+			"Mom_no_Diploman_HS": 17.6
 		}
 	}, {
 		"geometry": {
@@ -10262,7 +10262,7 @@
 			"geoid": "05000US13321",
 			"name": "Worth County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.97025024
+			"Mom_no_Diploman_HS": 23.7
 		}
 	}, {
 		"geometry": {
@@ -10429,7 +10429,7 @@
 			"geoid": "05000US13281",
 			"name": "Towns County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.42499072
+			"Mom_no_Diploman_HS": 21.1
 		}
 	}, {
 		"geometry": {
@@ -10581,7 +10581,7 @@
 			"geoid": "05000US13139",
 			"name": "Hall County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 6.89963008
+			"Mom_no_Diploman_HS": 32.9
 		}
 	}, {
 		"geometry": {
@@ -10814,7 +10814,7 @@
 			"geoid": "05000US13003",
 			"name": "Atkinson County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 9.14358272
+			"Mom_no_Diploman_HS": 43.6
 		}
 	}, {
 		"geometry": {
@@ -11034,7 +11034,7 @@
 			"geoid": "05000US13033",
 			"name": "Burke County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 5.05413632
+			"Mom_no_Diploman_HS": 24.1
 		}
 	}, {
 		"geometry": {
@@ -11231,7 +11231,7 @@
 			"geoid": "05000US13237",
 			"name": "Putnam County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.15236096
+			"Mom_no_Diploman_HS": 19.8
 		}
 	}, {
 		"geometry": {
@@ -11294,7 +11294,7 @@
 			"geoid": "05000US13227",
 			"name": "Pickens County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.52984832
+			"Mom_no_Diploman_HS": 21.6
 		}
 	}, {
 		"geometry": {
@@ -11408,7 +11408,7 @@
 			"geoid": "05000US13257",
 			"name": "Stephens County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 5.43162368
+			"Mom_no_Diploman_HS": 25.9
 		}
 	}, {
 		"geometry": {
@@ -11612,7 +11612,7 @@
 			"geoid": "05000US13313",
 			"name": "Whitfield County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 9.83564288
+			"Mom_no_Diploman_HS": 46.9
 		}
 	}, {
 		"geometry": {
@@ -11894,7 +11894,7 @@
 			"geoid": "05000US13301",
 			"name": "Warren County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.48790528
+			"Mom_no_Diploman_HS": 21.4
 		}
 	}, {
 		"geometry": {
@@ -12138,7 +12138,7 @@
 			"geoid": "05000US13311",
 			"name": "White County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.33447168
+			"Mom_no_Diploman_HS": 15.9
 		}
 	}, {
 		"geometry": {
@@ -12366,7 +12366,7 @@
 			"geoid": "05000US13053",
 			"name": "Chattahoochee County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 2.097152
+			"Mom_no_Diploman_HS": 10
 		}
 	}, {
 		"geometry": {
@@ -12589,7 +12589,7 @@
 			"geoid": "05000US13279",
 			"name": "Toombs County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 6.7108864
+			"Mom_no_Diploman_HS": 32
 		}
 	}, {
 		"geometry": {
@@ -12966,7 +12966,7 @@
 			"geoid": "05000US13271",
 			"name": "Telfair County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 6.43825664
+			"Mom_no_Diploman_HS": 30.7
 		}
 	}, {
 		"geometry": {
@@ -13275,7 +13275,7 @@
 			"geoid": "05000US13185",
 			"name": "Lowndes County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.9845888
+			"Mom_no_Diploman_HS": 19
 		}
 	}, {
 		"geometry": {
@@ -13504,7 +13504,7 @@
 			"geoid": "05000US13051",
 			"name": "Chatham County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 3.73293056
+			"Mom_no_Diploman_HS": 17.8
 		}
 	}, {
 		"geometry": {
@@ -13633,7 +13633,7 @@
 			"geoid": "05000US13063",
 			"name": "Clayton County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 5.62036736
+			"Mom_no_Diploman_HS": 26.8
 		}
 	}, {
 		"geometry": {
@@ -13833,7 +13833,7 @@
 			"geoid": "05000US13217",
 			"name": "Newton County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 2.91504128
+			"Mom_no_Diploman_HS": 13.9
 		}
 	}, {
 		"geometry": {
@@ -14062,7 +14062,7 @@
 			"geoid": "05000US13009",
 			"name": "Baldwin County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.0894464
+			"Mom_no_Diploman_HS": 19.5
 		}
 	}, {
 		"geometry": {
@@ -14320,7 +14320,7 @@
 			"geoid": "05000US13085",
 			"name": "Dawson County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.10378496
+			"Mom_no_Diploman_HS": 14.8
 		}
 	}, {
 		"geometry": {
@@ -14544,7 +14544,7 @@
 			"geoid": "05000US13245",
 			"name": "Richmond County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.63470592
+			"Mom_no_Diploman_HS": 22.1
 		}
 	}, {
 		"geometry": {
@@ -14718,7 +14718,7 @@
 			"geoid": "05000US13231",
 			"name": "Pike County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.12475648
+			"Mom_no_Diploman_HS": 14.9
 		}
 	}, {
 		"geometry": {
@@ -14936,7 +14936,7 @@
 			"geoid": "05000US13127",
 			"name": "Glynn County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 6.27048448
+			"Mom_no_Diploman_HS": 29.9
 		}
 	}, {
 		"geometry": {
@@ -15049,7 +15049,7 @@
 			"geoid": "05000US13207",
 			"name": "Monroe County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.12475648
+			"Mom_no_Diploman_HS": 14.9
 		}
 	}, {
 		"geometry": {
@@ -15240,7 +15240,7 @@
 			"geoid": "05000US13177",
 			"name": "Lee County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 2.81018368
+			"Mom_no_Diploman_HS": 13.4
 		}
 	}, {
 		"geometry": {
@@ -15492,7 +15492,7 @@
 			"geoid": "05000US13195",
 			"name": "Madison County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 7.04643072
+			"Mom_no_Diploman_HS": 33.6
 		}
 	}, {
 		"geometry": {
@@ -15822,7 +15822,7 @@
 			"geoid": "05000US13049",
 			"name": "Charlton County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 5.38968064
+			"Mom_no_Diploman_HS": 25.7
 		}
 	}, {
 		"geometry": {
@@ -15887,7 +15887,7 @@
 			"geoid": "05000US13023",
 			"name": "Bleckley County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.02653184
+			"Mom_no_Diploman_HS": 19.2
 		}
 	}, {
 		"geometry": {
@@ -16002,7 +16002,7 @@
 			"geoid": "05000US13197",
 			"name": "Marion County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 7.69654784
+			"Mom_no_Diploman_HS": 36.7
 		}
 	}, {
 		"geometry": {
@@ -16240,7 +16240,7 @@
 			"geoid": "05000US13181",
 			"name": "Lincoln County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 2.49561088
+			"Mom_no_Diploman_HS": 11.9
 		}
 	}, {
 		"geometry": {
@@ -16534,7 +16534,7 @@
 			"geoid": "05000US13039",
 			"name": "Camden County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 3.3554432
+			"Mom_no_Diploman_HS": 16
 		}
 	}, {
 		"geometry": {
@@ -16848,7 +16848,7 @@
 			"geoid": "05000US13021",
 			"name": "Bibb County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 5.11705088
+			"Mom_no_Diploman_HS": 24.4
 		}
 	}, {
 		"geometry": {
@@ -16945,7 +16945,7 @@
 			"geoid": "05000US13045",
 			"name": "Carroll County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.13138944
+			"Mom_no_Diploman_HS": 19.7
 		}
 	}, {
 		"geometry": {
@@ -17134,7 +17134,7 @@
 			"geoid": "05000US13211",
 			"name": "Morgan County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 2.89406976
+			"Mom_no_Diploman_HS": 13.8
 		}
 	}, {
 		"geometry": {
@@ -17303,7 +17303,7 @@
 			"geoid": "05000US13247",
 			"name": "Rockdale County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.57179136
+			"Mom_no_Diploman_HS": 21.8
 		}
 	}, {
 		"geometry": {
@@ -17442,7 +17442,7 @@
 			"geoid": "05000US13017",
 			"name": "Ben Hill County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 8.61929472
+			"Mom_no_Diploman_HS": 41.1
 		}
 	}, {
 		"geometry": {
@@ -17574,7 +17574,7 @@
 			"geoid": "05000US13147",
 			"name": "Hart County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 5.05413632
+			"Mom_no_Diploman_HS": 24.1
 		}
 	}, {
 		"geometry": {
@@ -17824,7 +17824,7 @@
 			"geoid": "05000US13189",
 			"name": "McDuffie County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.76053504
+			"Mom_no_Diploman_HS": 22.7
 		}
 	}, {
 		"geometry": {
@@ -17974,7 +17974,7 @@
 			"geoid": "05000US13205",
 			"name": "Mitchell County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.38304768
+			"Mom_no_Diploman_HS": 20.9
 		}
 	}, {
 		"geometry": {
@@ -18057,7 +18057,7 @@
 			"geoid": "05000US13131",
 			"name": "Grady County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 8.66123776
+			"Mom_no_Diploman_HS": 41.3
 		}
 	}, {
 		"geometry": {
@@ -18196,7 +18196,7 @@
 			"geoid": "05000US13101",
 			"name": "Echols County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 11.8489088
+			"Mom_no_Diploman_HS": 56.5
 		}
 	}, {
 		"geometry": {
@@ -18424,7 +18424,7 @@
 			"geoid": "05000US13163",
 			"name": "Jefferson County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.85875968
+			"Mom_no_Diploman_HS": 18.4
 		}
 	}, {
 		"geometry": {
@@ -18676,7 +18676,7 @@
 			"geoid": "05000US13141",
 			"name": "Hancock County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.194304
+			"Mom_no_Diploman_HS": 20
 		}
 	}, {
 		"geometry": {
@@ -18877,7 +18877,7 @@
 			"geoid": "05000US13001",
 			"name": "Appling County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 6.6060288
+			"Mom_no_Diploman_HS": 31.5
 		}
 	}, {
 		"geometry": {
@@ -19117,7 +19117,7 @@
 			"geoid": "05000US13137",
 			"name": "Habersham County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 6.7108864
+			"Mom_no_Diploman_HS": 32
 		}
 	}, {
 		"geometry": {
@@ -19389,7 +19389,7 @@
 			"geoid": "05000US13289",
 			"name": "Twiggs County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.02653184
+			"Mom_no_Diploman_HS": 19.2
 		}
 	}, {
 		"geometry": {
@@ -19573,7 +19573,7 @@
 			"geoid": "05000US13239",
 			"name": "Quitman County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.84442112
+			"Mom_no_Diploman_HS": 23.1
 		}
 	}, {
 		"geometry": {
@@ -19970,7 +19970,7 @@
 			"geoid": "05000US13229",
 			"name": "Pierce County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 5.47356672
+			"Mom_no_Diploman_HS": 26.1
 		}
 	}, {
 		"geometry": {
@@ -20222,7 +20222,7 @@
 			"geoid": "05000US13273",
 			"name": "Terrell County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 5.9768832
+			"Mom_no_Diploman_HS": 28.5
 		}
 	}, {
 		"geometry": {
@@ -20354,7 +20354,7 @@
 			"geoid": "05000US13011",
 			"name": "Banks County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.00556032
+			"Mom_no_Diploman_HS": 19.1
 		}
 	}, {
 		"geometry": {
@@ -20573,7 +20573,7 @@
 			"geoid": "05000US13121",
 			"name": "Fulton County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.73293056
+			"Mom_no_Diploman_HS": 17.8
 		}
 	}, {
 		"geometry": {
@@ -20846,7 +20846,7 @@
 			"geoid": "05000US13219",
 			"name": "Oconee County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 1.34217728
+			"Mom_no_Diploman_HS": 6.4
 		}
 	}, {
 		"geometry": {
@@ -21043,7 +21043,7 @@
 			"geoid": "05000US13035",
 			"name": "Butts County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.73293056
+			"Mom_no_Diploman_HS": 17.8
 		}
 	}, {
 		"geometry": {
@@ -21177,7 +21177,7 @@
 			"geoid": "05000US13145",
 			"name": "Harris County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 1.44703488
+			"Mom_no_Diploman_HS": 6.9
 		}
 	}, {
 		"geometry": {
@@ -21430,7 +21430,7 @@
 			"geoid": "05000US13265",
 			"name": "Taliaferro County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 6.98351616
+			"Mom_no_Diploman_HS": 33.3
 		}
 	}, {
 		"geometry": {
@@ -21707,7 +21707,7 @@
 			"geoid": "05000US13305",
 			"name": "Wayne County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 6.14465536
+			"Mom_no_Diploman_HS": 29.3
 		}
 	}, {
 		"geometry": {
@@ -22104,7 +22104,7 @@
 			"geoid": "05000US13029",
 			"name": "Bryan County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 1.6777216
+			"Mom_no_Diploman_HS": 8
 		}
 	}, {
 		"geometry": {
@@ -22230,7 +22230,7 @@
 			"geoid": "05000US13067",
 			"name": "Cobb County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 3.08281344
+			"Mom_no_Diploman_HS": 14.7
 		}
 	}, {
 		"geometry": {
@@ -22428,7 +22428,7 @@
 			"geoid": "05000US13123",
 			"name": "Gilmer County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 10.08730112
+			"Mom_no_Diploman_HS": 48.1
 		}
 	}, {
 		"geometry": {
@@ -22636,7 +22636,7 @@
 			"geoid": "05000US13315",
 			"name": "Wilcox County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.46693376
+			"Mom_no_Diploman_HS": 21.3
 		}
 	}, {
 		"geometry": {
@@ -22847,7 +22847,7 @@
 			"geoid": "05000US13107",
 			"name": "Emanuel County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 5.5574528
+			"Mom_no_Diploman_HS": 26.5
 		}
 	}, {
 		"geometry": {
@@ -22999,7 +22999,7 @@
 			"geoid": "05000US13199",
 			"name": "Meriwether County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.13138944
+			"Mom_no_Diploman_HS": 19.7
 		}
 	}, {
 		"geometry": {
@@ -23117,7 +23117,7 @@
 			"geoid": "05000US13299",
 			"name": "Ware County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.73956352
+			"Mom_no_Diploman_HS": 22.6
 		}
 	}, {
 		"geometry": {
@@ -23302,7 +23302,7 @@
 			"geoid": "05000US13059",
 			"name": "Clarke County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.80247808
+			"Mom_no_Diploman_HS": 22.9
 		}
 	}, {
 		"geometry": {
@@ -23365,7 +23365,7 @@
 			"geoid": "05000US13015",
 			"name": "Bartow County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.8234496
+			"Mom_no_Diploman_HS": 23
 		}
 	}, {
 		"geometry": {
@@ -23712,7 +23712,7 @@
 			"geoid": "05000US13103",
 			"name": "Effingham County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 3.31350016
+			"Mom_no_Diploman_HS": 15.8
 		}
 	}, {
 		"geometry": {
@@ -23811,7 +23811,7 @@
 			"geoid": "05000US13097",
 			"name": "Douglas County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.01989888
+			"Mom_no_Diploman_HS": 14.4
 		}
 	}, {
 		"geometry": {
@@ -23977,7 +23977,7 @@
 			"geoid": "05000US13093",
 			"name": "Dooly County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 7.48683264
+			"Mom_no_Diploman_HS": 35.7
 		}
 	}, {
 		"geometry": {
@@ -24094,7 +24094,7 @@
 			"geoid": "05000US13167",
 			"name": "Johnson County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.3554432
+			"Mom_no_Diploman_HS": 16
 		}
 	}, {
 		"geometry": {
@@ -24146,7 +24146,7 @@
 			"geoid": "05000US13223",
 			"name": "Paulding County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 1.572864
+			"Mom_no_Diploman_HS": 7.5
 		}
 	}, {
 		"geometry": {
@@ -24318,7 +24318,7 @@
 			"geoid": "05000US13293",
 			"name": "Upson County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.99122176
+			"Mom_no_Diploman_HS": 23.8
 		}
 	}, {
 		"geometry": {
@@ -24522,7 +24522,7 @@
 			"geoid": "05000US13077",
 			"name": "Coweta County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 3.12475648
+			"Mom_no_Diploman_HS": 14.9
 		}
 	}, {
 		"geometry": {
@@ -24671,7 +24671,7 @@
 			"geoid": "05000US13099",
 			"name": "Early County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.67664896
+			"Mom_no_Diploman_HS": 22.3
 		}
 	}, {
 		"geometry": {
@@ -24776,7 +24776,7 @@
 			"geoid": "05000US13155",
 			"name": "Irwin County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 4.48790528
+			"Mom_no_Diploman_HS": 21.4
 		}
 	}, {
 		"geometry": {
@@ -25053,7 +25053,7 @@
 			"geoid": "05000US13153",
 			"name": "Houston County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.670016
+			"Mom_no_Diploman_HS": 17.5
 		}
 	}, {
 		"geometry": {
@@ -25224,7 +25224,7 @@
 			"geoid": "05000US13261",
 			"name": "Sumter County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 6.66894336
+			"Mom_no_Diploman_HS": 31.8
 		}
 	}, {
 		"geometry": {
@@ -25451,7 +25451,7 @@
 			"geoid": "05000US13105",
 			"name": "Elbert County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 5.26385152
+			"Mom_no_Diploman_HS": 25.1
 		}
 	}, {
 		"geometry": {
@@ -25634,7 +25634,7 @@
 			"geoid": "05000US13007",
 			"name": "Baker County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 7.40294656
+			"Mom_no_Diploman_HS": 35.3
 		}
 	}, {
 		"geometry": {
@@ -25776,7 +25776,7 @@
 			"geoid": "05000US13159",
 			"name": "Jasper County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.34110464
+			"Mom_no_Diploman_HS": 20.7
 		}
 	}, {
 		"geometry": {
@@ -25903,7 +25903,7 @@
 			"geoid": "05000US13089",
 			"name": "DeKalb County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 5.05413632
+			"Mom_no_Diploman_HS": 24.1
 		}
 	}, {
 		"geometry": {
@@ -26048,7 +26048,7 @@
 			"geoid": "05000US13037",
 			"name": "Calhoun County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.55081984
+			"Mom_no_Diploman_HS": 21.7
 		}
 	}, {
 		"geometry": {
@@ -26387,7 +26387,7 @@
 			"geoid": "05000US13251",
 			"name": "Screven County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 3.90070272
+			"Mom_no_Diploman_HS": 18.6
 		}
 	}, {
 		"geometry": {
@@ -26675,7 +26675,7 @@
 			"geoid": "05000US13317",
 			"name": "Wilkes County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 6.1865984
+			"Mom_no_Diploman_HS": 29.5
 		}
 	}, {
 		"geometry": {
@@ -26823,7 +26823,7 @@
 			"geoid": "05000US13297",
 			"name": "Walton County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 3.48127232
+			"Mom_no_Diploman_HS": 16.6
 		}
 	}, {
 		"geometry": {
@@ -26945,7 +26945,7 @@
 			"geoid": "05000US13175",
 			"name": "Laurens County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.4040192
+			"Mom_no_Diploman_HS": 21
 		}
 	}, {
 		"geometry": {
@@ -27033,7 +27033,7 @@
 			"geoid": "05000US13277",
 			"name": "Tift County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 6.87865856
+			"Mom_no_Diploman_HS": 32.8
 		}
 	}, {
 		"geometry": {
@@ -27096,7 +27096,7 @@
 			"geoid": "05000US13249",
 			"name": "Schley County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.60710144
+			"Mom_no_Diploman_HS": 17.2
 		}
 	}, {
 		"geometry": {
@@ -27216,7 +27216,7 @@
 			"geoid": "05000US13115",
 			"name": "Floyd County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 6.24951296
+			"Mom_no_Diploman_HS": 29.8
 		}
 	}, {
 		"geometry": {
@@ -27360,7 +27360,7 @@
 			"geoid": "05000US13091",
 			"name": "Dodge County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 5.1380224
+			"Mom_no_Diploman_HS": 24.5
 		}
 	}, {
 		"geometry": {
@@ -27402,7 +27402,7 @@
 			"geoid": "05000US13149",
 			"name": "Heard County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 5.01219328
+			"Mom_no_Diploman_HS": 23.9
 		}
 	}, {
 		"geometry": {
@@ -27532,7 +27532,7 @@
 			"geoid": "05000US13119",
 			"name": "Franklin County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.194304
+			"Mom_no_Diploman_HS": 20
 		}
 	}, {
 		"geometry": {
@@ -27768,7 +27768,7 @@
 			"geoid": "05000US13191",
 			"name": "McIntosh County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 5.80911104
+			"Mom_no_Diploman_HS": 27.7
 		}
 	}, {
 		"geometry": {
@@ -27807,7 +27807,7 @@
 			"geoid": "05000US13171",
 			"name": "Lamar County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.44596224
+			"Mom_no_Diploman_HS": 21.2
 		}
 	}, {
 		"geometry": {
@@ -27911,7 +27911,7 @@
 			"geoid": "05000US13005",
 			"name": "Bacon County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 5.68328192
+			"Mom_no_Diploman_HS": 27.1
 		}
 	}, {
 		"geometry": {
@@ -28259,7 +28259,7 @@
 			"geoid": "05000US13309",
 			"name": "Wheeler County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 3.9845888
+			"Mom_no_Diploman_HS": 19
 		}
 	}, {
 		"geometry": {
@@ -28519,7 +28519,7 @@
 			"geoid": "05000US13183",
 			"name": "Long County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 3.94264576
+			"Mom_no_Diploman_HS": 18.8
 		}
 	}, {
 		"geometry": {
@@ -28616,7 +28616,7 @@
 			"geoid": "05000US13087",
 			"name": "Decatur County, GA",
 			"risk": "3",
-			"Mom_no_Diploman_HS": 4.11041792
+			"Mom_no_Diploman_HS": 19.6
 		}
 	}, {
 		"geometry": {
@@ -28818,7 +28818,7 @@
 			"geoid": "05000US13109",
 			"name": "Evans County, GA",
 			"risk": "2",
-			"Mom_no_Diploman_HS": 7.5497472
+			"Mom_no_Diploman_HS": 36
 		}
 	}]
 }

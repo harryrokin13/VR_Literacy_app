@@ -78,7 +78,7 @@ jQuery.fn.timelinr = function(options){
 		// autoPlay, added since 0.9.4
 		
 		if(settings.autoPlay == 'true') { 
-			interval = setInterval("autoPlay()", settings.autoPlayPause);
+			//interval = setInterval("autoPlay()", settings.autoPlayPause);
 		}
 		
 	});
@@ -86,7 +86,7 @@ jQuery.fn.timelinr = function(options){
 
 function autoPlay(){
 	counter +=1;
-	if(counter ==9)
+	if(counter ==10)
 		clearInterval(interval);
 			
 	var currentDate = $(settings.datesDiv).find('a.'+settings.datesSelectedClass);
