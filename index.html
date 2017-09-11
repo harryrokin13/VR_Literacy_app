@@ -67,11 +67,11 @@
     }
 </style>
 <!--Div for map-->
-<div id="video">
+<!--<div id="video">
 <video width="100%" height="auto" autoplay="autoplay">
   <source src="http://www.w3schools.com/tags/mov_bbb.mp4" type='video/ogg; codecs="theora, vorbis"'>
 </video>
-</div>
+</div>-->
 
 <div id='map' style="display: none;"></div>
 
@@ -83,34 +83,21 @@
     <div><span style='background-color: #008000'></span>2 - Medium</div>
     <div><span style='background-color: #FFFF00'></span>3 - High</div>
 </div>
-
-<!--Div for timeline years
- <div id="timeline" style="display: none;">
-    <ul id="dates">
-      <li><a href="#2010">2010</a></li>
-      <li><a href="#2011">2011</a></li>
-      <li><a href="#2012">2012</a></li>
-      <li><a href="#2013">2013</a></li>
-      <li><a href="#2014">2014</a></li>
-      <li><a href="#2015">2015</a></li>
-      <li><a href="#2016">2016</a></li>
-      <li><a href="#2017">2017</a></li>
-      <li><a href="#2018">2018</a></li>
-      <li><a href="#2019">2019</a></li>
-      <li><a href="#2020">2020</a></li>
-    </ul>-->
-    <!--<div id="grad_left"></div>
-    <div id="grad_right"></div>-->
-</div>
 <a-scene>
     <!--<a-assets>
         <a-asset-item id="georgia-obj" src="3DModel/Georgia.obj"></a-asset-item>
         <a-asset-item id="georgia-mtl" src="3DModel/Georgia.mtl"></a-asset-item>
     </a-assets>
     <a-entity obj-model="obj: #georgia-obj; mtl: #georgia-mtl"></a-entity>-->
-    <!--<a-image id="image" geometry="width: 8; height: 4; depth: 3" rotation="0 0 0" position="-0.2 1.5 -3.5" src="" ></a-image>-->
-    <a-image id="image" width="160" height="120" position="-40 3 -85" src="" ></a-image>
-    <a-image id="timeline_Insights" width="60" height="60" position="70 25 -85" src="" ></a-image>
+    <a-sky color="#000"></a-sky>
+    <a-assets>
+        <video id="start01" autoplay loop="false" src="Resources/Start.mp4"></video>
+    </a-assets>
+  <!-- Using the asset management system. -->
+    <a-video id="video1" src="#start01" width="133" height="100" position="0 0 -40"></a-video>
+
+    <a-image id="image" width="200" height="150" position="-40 3 -85" src="" ></a-image>
+    <a-image id="timeline_Insights" width="60" height="60" position="70 25 -80" src="" ></a-image>
     <!--<a-entity id="year" text="value: Hello World;" position="40 -60 -50"></a-entity>
     <a-text value="Now Interactable" geometry="primitive:plane" position="40 -60 -50"></a-text>-->
     
@@ -190,9 +177,7 @@
     material="color: blue;"
     text-geometry="value: 2020">
     </a-entity>
-
-
-    
+  
 </a-scene>
 
 <!-- code to download updated json file-->
@@ -210,13 +195,21 @@ var success = false;
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/harryrokin13/cj7a7l2ir8tm52rmt25oev61v',
-    center: [-82, 32.5],
-    zoom: 4.9,
+    center: [-83, 32.5],
+    zoom: 4.4,
     minZoom: 4.7
 });
 
-$('#video video').bind('ended', function(){
-   $(this).parent().fadeOut();
+var video = document.getElementById('start01');
+video.addEventListener('ended', function (evt) { 
+  // ...
+  video.parentNode.removeChild(video);
+  var videoframe = document.getElementById('video1');
+  videoframe.parentNode.removeChild(videoframe);
+//});
+
+//$('#video video').bind('ended', function(){
+  // $(this).parent().fadeOut();
    console.log("videso stopped");
    var counter = 0;
    var selectedyear = 2010;
@@ -329,7 +322,7 @@ function loadMap(jsonfile, selectedyear){
         var yeartexture = document.getElementById('timeline_Insights');
         var yearImageloc = 'Timeline_Images/'+selectedyear+'.jpg';
         yeartexture.setAttribute('src', yearImageloc);
-    $.getJSON(jsonfile, function(jsonData) {
+    //$.getJSON(jsonfile, function(jsonData) {
     
         /*map.addLayer({
             'id': jsonfile,
@@ -382,7 +375,7 @@ function loadMap(jsonfile, selectedyear){
         });*/
         
 
-    });
+    //});
     previousyear = jsonfile;    
 
     firstload +=1;
