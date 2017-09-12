@@ -3,7 +3,6 @@
 <head>
     <meta charset='utf-8' />
     <title></title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style.css" media="screen" />
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.js'></script>
@@ -77,14 +76,14 @@
     </a-assets>
     <a-entity obj-model="obj: #georgia-obj; mtl: #georgia-mtl"></a-entity>-->
     <a-sky color="#000"></a-sky>
-    <a-entity position="0 0 15">
+    <a-entity position="0 0 20">
         <a-camera></a-camera>
     </a-entity>
-   <!-- <a-assets>
+    <a-assets>
         <video id="start01" autoplay loop="false" src="Resources/Start.mp4"></video>
-    </a-assets>-->
+    </a-assets>
   <!-- Using the asset management system. -->
-   <!-- <a-video id="video1" src="#start01" width="7" height="5" position="0 0 -5"></a-video>-->
+    <a-video id="video1" class="video" src="#start01" width="16" height="12" position="0 1.5 10"></a-video>
 
     <a-image id="image" width="26" height="20" position="-9 4 -21" src="" ></a-image>
     <a-image id="timeline_Insights" width="15" height="15" position="13 6 -20" src="" ></a-image>
@@ -206,13 +205,24 @@
         yeartexture.setAttribute('src', yearImageloc);
     });
 
-    /*var video = document.getElementById('start01');
+    function playVideo () {
+        var els = document.querySelectorAll('.video')
+        Array.prototype.slice.call(els).forEach(function(el) {
+          el.components.material.material.map.image.play()
+        })
+    }
+    $( document ).ready(function() {
+        var videoclass = document.querySelector('.a-enter-vr-button');
+        if(videoclass)
+            videoclass.addEventListener('click', playVideo);
+    });
+    var video = document.getElementById('start01');
     video.addEventListener('ended', function (evt) { 
         video.parentNode.removeChild(video);
         var videoframe = document.getElementById('video1');
         videoframe.parentNode.removeChild(videoframe);
 
-        console.log("video stopped");*/
+        console.log("video stopped");
         var counter = 0;
         var i = setInterval(function(){
             //var currentJsonFile = 'Geojson/georgia'+selectedyear+'.geo.json';
@@ -226,8 +236,8 @@
             if(counter === 11) {
                 clearInterval(i);
             }
-        }, 10000);
-   // });
+        }, 5000);
+    });
 
     /*$('#dates a').click(function(event){
                 event.preventDefault();
