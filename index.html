@@ -177,6 +177,7 @@
     var previousSelectedYear = '2010';
     var firstload = 1;
     var success = false;
+    var selectedyear = 2010;
 
     var map = new mapboxgl.Map({
         container: 'map',
@@ -186,6 +187,19 @@
         minZoom: 4.7
     });
     map.on('load', function () {
+        var year=document.getElementById(selectedyear);
+        var anim=document. createElement('a-animation');
+        anim.setAttribute('attribute','scale');
+        anim.setAttribute('to','2 2 1');
+        year.appendChild(anim);
+
+        var c = document.querySelector('#map canvas');
+        var img = c.toDataURL('image/png');
+        var texture = document.getElementById('image');
+        texture.setAttribute('src', img);
+        var yeartexture = document.getElementById('timeline_Insights');
+        var yearImageloc = 'Timeline_Images/'+selectedyear+'.jpg';
+        yeartexture.setAttribute('src', yearImageloc);
     });
 
     /*var video = document.getElementById('start01');
@@ -196,7 +210,6 @@
 
         console.log("video stopped");*/
         var counter = 0;
-        var selectedyear = 2010;
         var i = setInterval(function(){
             //var currentJsonFile = 'Geojson/georgia'+selectedyear+'.geo.json';
             success = loadMap(selectedyear);
