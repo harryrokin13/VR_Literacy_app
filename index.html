@@ -77,6 +77,9 @@
     </a-assets>
     <a-entity obj-model="obj: #georgia-obj; mtl: #georgia-mtl"></a-entity>-->
     <a-sky color="#000"></a-sky>
+    <a-entity position="0 0 10">
+        <a-camera></a-camera>
+    </a-entity>
    <!-- <a-assets>
         <video id="start01" autoplay loop="false" src="Resources/Start.mp4"></video>
     </a-assets>-->
@@ -224,7 +227,7 @@
         var year=document.getElementById(selectedyear);
             var anim=document. createElement('a-animation');
             anim.setAttribute('attribute','scale');
-            anim.setAttribute('to','8 8 1');
+            anim.setAttribute('to','2 2 1');
             year.appendChild(anim);
         
         var layer = 'georgia_'+previousSelectedYear;
@@ -244,7 +247,7 @@
             var prev = document.getElementById(previousSelectedYear);
               var anim1=document. createElement('a-animation');
               anim1.setAttribute('attribute','scale');
-              anim1.setAttribute('to','4 4 1');
+              anim1.setAttribute('to','1 1 1');
               prev.appendChild(anim1);
             
           }
