@@ -170,6 +170,23 @@
 </a-scene>
 
 <script>
+    var scene = document.querySelector("a-scene");
+    var vid = document.getElementById("start01");
+
+    if (scene.hasLoaded) {
+      run();
+    } else {
+      scene.addEventListener("loaded", run);
+    }
+
+    function run () {
+        scene.querySelector(".a-enter-vr-button").addEventListener("click", function(e){
+            console.log("VR Mode entered");
+            this.style.display = "none";
+            vid.play();
+        }, false);
+    }
+    
     mapboxgl.accessToken = 'pk.eyJ1IjoiaGFycnlyb2tpbjEzIiwiYSI6ImNqNzljMG9mcDAwNmsycm10Y2NjM3N1aHoifQ.BRQyZhWWp_bL3G5TYX6I8Q';
     var jsonDatafile = 'Geojson/georgia2010.geo.json';
     var previousyear = jsonDatafile;
