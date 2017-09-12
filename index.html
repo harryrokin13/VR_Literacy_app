@@ -7,35 +7,22 @@
     <link rel="stylesheet" href="css/style.css" media="screen" />
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.js'></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
     <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-text-geometry-component@^0.5.0/dist/aframe-text-geometry-component.min.js"></script> 
-    <script src="https://unpkg.com/aframe-html-shader@0.2.0/dist/aframe-html-shader.min.js"></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css' rel='stylesheet' />
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
-    <!--<script src="js/index.js"></script>
-  <script>
-    $(function(){
-          $().timelinr({
-            arrowKeys: 'true'
-          })
-        });
-  </script>-->
-
+    <!--<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <style>
         body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100; }
     </style>
 </head>
-<body>
 
+<body>
 <style>
     .legend {
         background-color: #d3d3d3;
@@ -180,207 +167,156 @@
   
 </a-scene>
 
-<!-- code to download updated json file-->
-<div style="display: none;">
-<textarea id="textbox">Type something here</textarea> <button id="create">Create file</button> <a download="info.txt" id="downloadlink" style="display: none">Download</a>
-</div>
 <script>
-mapboxgl.accessToken = 'pk.eyJ1IjoiaGFycnlyb2tpbjEzIiwiYSI6ImNqNzljMG9mcDAwNmsycm10Y2NjM3N1aHoifQ.BRQyZhWWp_bL3G5TYX6I8Q';
-var jsonDatafile = 'Geojson/georgia2010.geo.json';
-var previousyear = jsonDatafile;
-var previousSelectedYear = '2010';
-var firstload = 1;
-var success = false;
+    mapboxgl.accessToken = 'pk.eyJ1IjoiaGFycnlyb2tpbjEzIiwiYSI6ImNqNzljMG9mcDAwNmsycm10Y2NjM3N1aHoifQ.BRQyZhWWp_bL3G5TYX6I8Q';
+    var jsonDatafile = 'Geojson/georgia2010.geo.json';
+    var previousyear = jsonDatafile;
+    var previousSelectedYear = '2010';
+    var firstload = 1;
+    var success = false;
 
-var map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/harryrokin13/cj7a7l2ir8tm52rmt25oev61v',
-    center: [-83, 33],
-    zoom: 4.4,
-    minZoom: 4.7
-});
-
-var video = document.getElementById('start01');
-video.addEventListener('ended', function (evt) { 
-  // ...
-  video.parentNode.removeChild(video);
-  var videoframe = document.getElementById('video1');
-  videoframe.parentNode.removeChild(videoframe);
-//});
-
-//$('#video video').bind('ended', function(){
-  // $(this).parent().fadeOut();
-   console.log("videso stopped");
-   var counter = 0;
-   var selectedyear = 2010;
-    var i = setInterval(function(){
-        // do your thing
-        var currentJsonFile = 'Geojson/georgia'+selectedyear+'.geo.json';
-        success = loadMap(currentJsonFile,selectedyear);
-        if(success == true)
-        {
-            selectedyear +=1;
-            counter +=1;
-        }
-        success = false;
-        if(counter === 11) {
-            clearInterval(i);
-        }
-    }, 10000);
-   //$('#dates li').eq(0).find('a').trigger('click');
-});
-
-
-$.getJSON(jsonDatafile, function(jsonData) {
-    map.on('load', function () {
-        // Add a layer showing the state polygons.
-        
-       /* map.addLayer({
-            'id': jsonDatafile,
-            'type': 'fill',
-            'source': {
-                'type': 'geojson',
-                'data': jsonData
-              },
-            'paint': {
-
-                'fill-color': { 
-                    property: 'Mom_no_Diploman_HS',
-                    stops: [
-                        [0, '#F2F12D'],
-                        [5, '#EED322'],
-                        [10, '#E6B71E'],
-                        [15, '#DA9C20'],
-                        [20, '#CA8323'],
-                        [25, '#B86B25'],
-                        [30, '#A25626'],
-                        [40, '#8B4225'],
-                        [50, '#723122']
-                    ]
-                },
-                'fill-opacity': 1,
-                'fill-outline-color':'#000'
-            }, 
-        });    
-        var c = document.querySelector('#map canvas');
-        var img = c.toDataURL('image/png');
-        var texture = document.getElementById('image');
-        texture.setAttribute('src', img);
-        var yeartexture = document.getElementById('timeline_Insights');
-        var yearImageloc = 'Timeline_Images/2010.jpg';
-        yeartexture.setAttribute('src', yearImageloc);*/
-        //document.getElementById('image').appendChild(texture);
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/harryrokin13/cj7a7l2ir8tm52rmt25oev61v',
+        center: [-83, 33],
+        zoom: 4.4,
+        minZoom: 4.7
     });
-});
+    map.on('load', function () {
+    });
 
-/*$('#dates a').click(function(event){
-            event.preventDefault();
-            // first vars
-            var selectedyear = $(this).text();
-            $('#dates a').removeClass('selected');
-            $(this).addClass('selected');
-            var currentJsonFile = 'Geojson/georgia'+selectedyear.trim()+'.geo.json';
-            loadMap(currentJsonFile,selectedyear);
-});*/
+    var video = document.getElementById('start01');
+    video.addEventListener('ended', function (evt) { 
+        video.parentNode.removeChild(video);
+        var videoframe = document.getElementById('video1');
+        videoframe.parentNode.removeChild(videoframe);
 
-function loadMap(jsonfile, selectedyear){
-    console.log("in load map. counter: "+firstload);
-    var year=document.getElementById(selectedyear);
-        var anim=document. createElement('a-animation');
-        anim.setAttribute('attribute','scale');
-        anim.setAttribute('to','8 8 1');
-        year.appendChild(anim);
-    
-    var layer = 'georgia_'+previousSelectedYear;
-    if(firstload>1)
-    {
-       // map.getLayer(previousyear).layout.visibility
-       /*var visibility = map.getLayer(layer).layout.visibility;
+        console.log("video stopped");
+        var counter = 0;
+        var selectedyear = 2010;
+        var i = setInterval(function(){
+            //var currentJsonFile = 'Geojson/georgia'+selectedyear+'.geo.json';
+            success = loadMap(selectedyear);
+            if(success == true)
+            {
+                selectedyear +=1;
+                counter +=1;
+            }
+            success = false;
+            if(counter === 11) {
+                clearInterval(i);
+            }
+        }, 10000);
+    });
 
-        if (visibility === 'visible') 
-            map.getLayer(layer).layout.visibility ='none';*/
-        console.log(layer);
-        var visibility = map.getLayoutProperty(layer, 'visibility');
+    /*$('#dates a').click(function(event){
+                event.preventDefault();
+                // first vars
+                var selectedyear = $(this).text();
+                $('#dates a').removeClass('selected');
+                $(this).addClass('selected');
+                var currentJsonFile = 'Geojson/georgia'+selectedyear.trim()+'.geo.json';
+                loadMap(currentJsonFile,selectedyear);
+    });*/
 
-        if (visibility === 'visible') 
-            map.setLayoutProperty(layer, 'visibility', 'none');
+    function loadMap(selectedyear){
+        console.log("in load map. counter: "+firstload);
+        var year=document.getElementById(selectedyear);
+            var anim=document. createElement('a-animation');
+            anim.setAttribute('attribute','scale');
+            anim.setAttribute('to','8 8 1');
+            year.appendChild(anim);
         
-        var prev = document.getElementById(previousSelectedYear);
-          var anim1=document. createElement('a-animation');
-          anim1.setAttribute('attribute','scale');
-          anim1.setAttribute('to','4 4 1');
-          prev.appendChild(anim1);
+        var layer = 'georgia_'+previousSelectedYear;
+        if(firstload>1)
+        {
+           // map.getLayer(previousyear).layout.visibility
+           /*var visibility = map.getLayer(layer).layout.visibility;
+
+            if (visibility === 'visible') 
+                map.getLayer(layer).layout.visibility ='none';*/
+            console.log(layer);
+            var visibility = map.getLayoutProperty(layer, 'visibility');
+
+            if (visibility === 'visible') 
+                map.setLayoutProperty(layer, 'visibility', 'none');
+            
+            var prev = document.getElementById(previousSelectedYear);
+              var anim1=document. createElement('a-animation');
+              anim1.setAttribute('attribute','scale');
+              anim1.setAttribute('to','4 4 1');
+              prev.appendChild(anim1);
+            
+          }
+          previousSelectedYear = selectedyear;
+
+
+            var c = document.querySelector('#map canvas');
+            var img = c.toDataURL('image/png');
+            var texture = document.getElementById('image');
+            texture.setAttribute('src', img);
+            var yeartexture = document.getElementById('timeline_Insights');
+            var yearImageloc = 'Timeline_Images/'+selectedyear+'.jpg';
+            yeartexture.setAttribute('src', yearImageloc);
+        //$.getJSON(jsonfile, function(jsonData) {
         
-      }
-      previousSelectedYear = selectedyear;
+            /*map.addLayer({
+                'id': jsonfile,
+                'type': 'fill',
+                'source': {
+                    'type': 'geojson',
+                    'data': jsonData
+                  },
+                'paint': {
 
-
-        var c = document.querySelector('#map canvas');
-        var img = c.toDataURL('image/png');
-        var texture = document.getElementById('image');
-        texture.setAttribute('src', img);
-        var yeartexture = document.getElementById('timeline_Insights');
-        var yearImageloc = 'Timeline_Images/'+selectedyear+'.jpg';
-        yeartexture.setAttribute('src', yearImageloc);
-    //$.getJSON(jsonfile, function(jsonData) {
-    
-        /*map.addLayer({
-            'id': jsonfile,
-            'type': 'fill',
-            'source': {
-                'type': 'geojson',
-                'data': jsonData
-              },
-            'paint': {
-
-                'fill-color': {
-                    property: 'Mom_no_Diploman_HS',
-                    stops: [
-                        [0, '#F2F12D'],
-                        [5, '#EED322'],
-                        [10, '#E6B71E'],
-                        [15, '#DA9C20'],
-                        [20, '#CA8323'],
-                        [25, '#B86B25'],
-                        [30, '#A25626'],
-                        [40, '#8B4225'],
-                        [50, '#723122']
-                    ]
-                },
-                'fill-opacity': 0.5,
-                'fill-outline-color':'#000'
-            }, 
-        }); */
-    
-       
-
-        //document.getElementById('image').appendChild(texture);
-        // When a click event occurs on a feature in the states layer, open a popup at the
-        // location of the click, with description HTML from its properties.
-        /*map.on('click', jsonfile, function (e) {
-            new mapboxgl.Popup()
-                .setLngLat(e.lngLat)
-                .setHTML(e.features[0].properties.name)
-                .addTo(map);
-        });
-
-        // Change the cursor to a pointer when the mouse is over the states layer.
-        map.on('mouseenter', jsonfile, function () {
-            map.getCanvas().style.cursor = 'pointer';
-        });
-
-        // Change it back to a pointer when it leaves.
-        map.on('mouseleave', jsonfile, function () {
-            map.getCanvas().style.cursor = '';
-        });*/
+                    'fill-color': {
+                        property: 'Mom_no_Diploman_HS',
+                        stops: [
+                            [0, '#F2F12D'],
+                            [5, '#EED322'],
+                            [10, '#E6B71E'],
+                            [15, '#DA9C20'],
+                            [20, '#CA8323'],
+                            [25, '#B86B25'],
+                            [30, '#A25626'],
+                            [40, '#8B4225'],
+                            [50, '#723122']
+                        ]
+                    },
+                    'fill-opacity': 0.5,
+                    'fill-outline-color':'#000'
+                }, 
+            }); */
         
+           
 
-    //});
-    previousyear = jsonfile;    
+            //document.getElementById('image').appendChild(texture);
+            // When a click event occurs on a feature in the states layer, open a popup at the
+            // location of the click, with description HTML from its properties.
+            /*map.on('click', jsonfile, function (e) {
+                new mapboxgl.Popup()
+                    .setLngLat(e.lngLat)
+                    .setHTML(e.features[0].properties.name)
+                    .addTo(map);
+            });
 
-    firstload +=1;
-    return true;
-}
+            // Change the cursor to a pointer when the mouse is over the states layer.
+            map.on('mouseenter', jsonfile, function () {
+                map.getCanvas().style.cursor = 'pointer';
+            });
+
+            // Change it back to a pointer when it leaves.
+            map.on('mouseleave', jsonfile, function () {
+                map.getCanvas().style.cursor = '';
+            });*/
+            
+
+        //});
+        //previousyear = jsonfile;    
+
+        firstload +=1;
+        return true;
+    }
 </script>
 
 </body>
