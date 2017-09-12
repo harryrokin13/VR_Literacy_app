@@ -191,7 +191,11 @@
         var anim=document. createElement('a-animation');
         anim.setAttribute('attribute','scale');
         anim.setAttribute('to','2 2 1');
+        var coloranim=document.createElement('a-animation');
+        coloranim.setAttribute('attribute','material.color');
+        coloranim.setAttribute('to','white');
         year.appendChild(anim);
+        year.appendChild(coloranim);
 
         var c = document.querySelector('#map canvas');
         var img = c.toDataURL('image/png');
@@ -238,10 +242,14 @@
     function loadMap(selectedyear){
         console.log("in load map. counter: "+firstload);
         var year=document.getElementById(selectedyear);
-            var anim=document. createElement('a-animation');
+            var anim=document.createElement('a-animation');
             anim.setAttribute('attribute','scale');
             anim.setAttribute('to','2 2 1');
+            var coloranim=document.createElement('a-animation');
+            coloranim.setAttribute('attribute','material.color');
+            coloranim.setAttribute('to','white');
             year.appendChild(anim);
+            year.appendChild(coloranim);
         
         var layer = 'georgia_'+previousSelectedYear;
         if(firstload>1)
@@ -258,10 +266,14 @@
                 map.setLayoutProperty(layer, 'visibility', 'none');
             
             var prev = document.getElementById(previousSelectedYear);
-              var anim1=document. createElement('a-animation');
-              anim1.setAttribute('attribute','scale');
-              anim1.setAttribute('to','1 1 1');
-              prev.appendChild(anim1);
+            var anim1=document. createElement('a-animation');
+            anim1.setAttribute('attribute','scale');
+            anim1.setAttribute('to','1 1 1');
+            prev.appendChild(anim1);
+            var coloranim=document.createElement('a-animation');
+            coloranim.setAttribute('attribute','material.color');
+            coloranim.setAttribute('to','blue');
+            yeprevar.appendChild(coloranim);
             
           }
           previousSelectedYear = selectedyear;
