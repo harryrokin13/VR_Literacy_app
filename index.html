@@ -186,7 +186,7 @@
             vid.play();
         }, false);
     }
-    
+
     mapboxgl.accessToken = 'pk.eyJ1IjoiaGFycnlyb2tpbjEzIiwiYSI6ImNqNzljMG9mcDAwNmsycm10Y2NjM3N1aHoifQ.BRQyZhWWp_bL3G5TYX6I8Q';
     var jsonDatafile = 'Geojson/georgia2010.geo.json';
     var previousyear = jsonDatafile;
@@ -222,17 +222,6 @@
         yeartexture.setAttribute('src', yearImageloc);
     });
 
-    function playVideo () {
-        var els = document.querySelectorAll('.video')
-        Array.prototype.slice.call(els).forEach(function(el) {
-          el.components.material.material.map.image.play()
-        })
-    }
-    $( document ).ready(function() {
-        var videoclass = document.querySelector('.a-enter-vr-button');
-        if(videoclass)
-            videoclass.addEventListener('click', playVideo);
-    });
     var video = document.getElementById('start01');
     video.addEventListener('ended', function (evt) { 
         video.parentNode.removeChild(video);
